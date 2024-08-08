@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - DarkCyberGroot's Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>FAQ</h1>
+        <button id="toggle-dark-mode">Toggle Dark Mode</button>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="tools.html">Tools</a></li>
+            <li><a href="community.html">Community</a></li>
+            <li><a href="status.html">Status</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="training.html">Training & Certification</a></li>
+            <li><a href="faq.html" class="active">FAQ</a></li>
+        </ul>
+    </nav>
+    <main class="faq">
+        <section class="widgets">
+            <div class="widget" onclick="toggleDetails(this)">
+                <i class="fas fa-question-circle widget-icon"></i>
+                <h2>Frequently Asked Questions</h2>
+                <p>Common questions and detailed answers about cybersecurity, hacking, and the website.</p>
+                <div class="details">
+                    <p><strong>What is penetration testing?</strong></p>
+                    <p>Penetration testing, also known as pen testing, is the practice of testing a computer system, network, or web application to find vulnerabilities that an attacker could exploit. The goal is to identify security weaknesses before malicious hackers can discover and exploit them.</p>
+                    <p><strong>What tools are used in penetration testing?</strong></p>
+                    <p>Penetration testers use a variety of tools to conduct their assessments, including Nmap for network scanning, Wireshark for packet analysis, Metasploit for exploiting vulnerabilities, and many others.</p>
+                    <p><strong>How can I start learning ethical hacking?</strong></p>
+                    <p>To start learning ethical hacking, you can take online courses, participate in Capture The Flag (CTF) challenges, read books on hacking techniques, and practice using tools in a controlled lab environment. Certifications such as eJPT, Security+, and OSCP are also great ways to validate your skills.</p>
+                </div>
+            </div>
+            <div class="widget" onclick="toggleDetails(this)">
+                <i class="fas fa-book widget-icon"></i>
+                <h2>Guides</h2>
+                <p>How-to guides for common tasks and issues.</p>
+                <div class="details">
+                    <ul>
+                        <li><a href="https://www.offensive-security.com/metasploit-unleashed/" target="_blank">Metasploit Unleashed</a>: Guide to using Metasploit for penetration testing.</li>
+                        <li><a href="https://www.hackingtutorials.org/" target="_blank">Hacking Tutorials</a>: Various tutorials on network hacking, web application testing, and more.</li>
+                        <li><a href="https://book.hacktricks.xyz/" target="_blank">HackTricks</a>: Comprehensive guide to penetration testing techniques and tools.</li>
+                        <li><a href="https://www.exploit-db.com/" target="_blank">Exploit-DB</a>: Database of exploits and vulnerable software.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 DarkCyberGroot</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
+

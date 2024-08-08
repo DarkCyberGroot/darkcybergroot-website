@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community - DarkCyberGroot's Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Community</h1>
+        <button id="toggle-dark-mode">Toggle Dark Mode</button>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="tools.html">Tools</a></li>
+            <li><a href="community.html" class="active">Community</a></li>
+            <li><a href="status.html">Status</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="training.html">Training & Certification</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </nav>
+    <main class="community">
+        <section class="widgets">
+            <div class="widget" onclick="toggleDetails(this)">
+                <i class="fas fa-comments widget-icon"></i>
+                <h2>Forums</h2>
+                <p>Join discussions and share knowledge with other cybersecurity enthusiasts.</p>
+                <div class="details">
+                    <p>Participate in active discussions on cybersecurity topics, share knowledge, and seek advice from experienced professionals on popular forums such as:</p>
+                    <ul>
+                        <li><a href="https://www.reddit.com/r/netsec/" target="_blank">Reddit - NetSec</a></li>
+                        <li><a href="https://www.hackthebox.com/" target="_blank">Hack The Box</a></li>
+                        <li><a href="https://www.cybrary.it/" target="_blank">Cybrary</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="widget" onclick="toggleDetails(this)">
+                <i class="fas fa-calendar-alt widget-icon"></i>
+                <h2>Events</h2>
+                <p>Stay updated with upcoming events, webinars, and meetups.</p>
+                <div class="details">
+                    <p>Don't miss out on the latest cybersecurity events and webinars. Here are some of the upcoming events:</p>
+                    <ul>
+                        <li><a href="https://www.defcon.org/" target="_blank">DEF CON</a> - August 2024</li>
+                        <li><a href="https://www.blackhat.com/" target="_blank">Black Hat USA</a> - July 2024</li>
+                        <li><a href="https://www.rsaconference.com/" target="_blank">RSA Conference</a> - February 2024</li>
+                        <li><a href="https://ctftime.org/" target="_blank">CTFTime - Various CTF Events</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="widget" onclick="toggleDetails(this)">
+                <i class="fas fa-hands-helping widget-icon"></i>
+                <h2>Contributions</h2>
+                <p>Learn how to contribute to the community by sharing tools, blog posts, and participating in discussions.</p>
+                <div class="details">
+                    <p>Get involved and give back to the cybersecurity community by contributing in the following ways:</p>
+                    <ul>
+                        <li>Submit blog posts and articles to popular cybersecurity blogs and websites.</li>
+                        <li>Develop and share tools on platforms like GitHub.</li>
+                        <li>Participate in forums and discussions to help others learn and grow.</li>
+                        <li>Join open-source projects and collaborate with other security professionals.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 DarkCyberGroot</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
+

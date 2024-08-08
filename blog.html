@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - DarkCyberGroot's Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Blog</h1>
+        <button id="toggle-dark-mode">Toggle Dark Mode</button>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="blog.html" class="active">Blog</a></li>
+            <li><a href="tools.html">Tools</a></li>
+            <li><a href="community.html">Community</a></li>
+            <li><a href="status.html">Status</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="training.html">Training & Certification</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </nav>
+    <main class="blog">
+        <section class="widgets">
+            <div class="widget" onclick="toggleDetails(this)">
+                <i class="fas fa-newspaper widget-icon"></i>
+                <h2>Understanding the Latest Cyber Threats</h2>
+                <p>An in-depth look at the latest cybersecurity threats and how to defend against them.</p>
+                <div class="details">
+                    <p>Cyber threats are constantly evolving, making it crucial for cybersecurity professionals to stay informed. This blog post covers the most recent threats, including ransomware, phishing attacks, and advanced persistent threats (APTs). Learn how to identify and mitigate these threats using the latest tools and techniques.</p>
+                </div>
+            </div>
+            <div class="widget" onclick="toggleDetails(this)">
+                <i class="fas fa-tools widget-icon"></i>
+                <h2>Top 10 Tools for Penetration Testing</h2>
+                <p>A curated list of the most effective tools for penetration testing.</p>
+                <div class="details">
+                    <ul>
+                        <li><a href="https://github.com/nmap/nmap" target="_blank">Nmap</a>: Network scanning and enumeration tool.</li>
+                        <li><a href="https://github.com/wireshark/wireshark" target="_blank">Wireshark</a>: Network protocol analyzer.</li>
+                        <li><a href="https://github.com/rapid7/metasploit-framework" target="_blank">Metasploit</a>: Penetration testing framework.</li>
+                        <li><a href="https://github.com/sqlmapproject/sqlmap" target="_blank">SQLmap</a>: Automated SQL injection tool.</li>
+                        <li><a href="https://github.com/aircrack-ng/aircrack-ng" target="_blank">Aircrack-ng</a>: Wireless network security tool.</li>
+                        <li><a href="https://github.com/tenable/nessus" target="_blank">Nessus</a>: Vulnerability scanner.</li>
+                        <li><a href="https://github.com/OWASP/ZAP" target="_blank">OWASP ZAP</a>: Web application security scanner.</li>
+                        <li><a href="https://github.com/hashcat/hashcat" target="_blank">Hashcat</a>: Password cracking tool.</li>
+                        <li><a href="https://github.com/PowerShellMafia/PowerSploit" target="_blank">PowerSploit</a>: PowerShell post-exploitation framework.</li>
+                        <li><a href="https://github.com/rebootuser/LinEnum" target="_blank">LinEnum</a>: Linux privilege escalation script.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="widget" onclick="toggleDetails(this)">
+                <i class="fas fa-shield-alt widget-icon"></i>
+                <h2>How to Secure Your Network</h2>
+                <p>Best practices for securing your network against cyber attacks.</p>
+                <div class="details">
+                    <p>Network security is a critical aspect of protecting an organization's data and resources. This blog post outlines essential steps for securing your network, including implementing strong firewalls, using intrusion detection and prevention systems, conducting regular security audits, and training employees on security best practices.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 DarkCyberGroot</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Status - DarkCyberGroot's Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Server Status</h1>
+        <button id="toggle-dark-mode">Toggle Dark Mode</button>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="tools.html">Tools</a></li>
+            <li><a href="community.html">Community</a></li>
+            <li><a href="status.html" class="active">Status</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="training.html">Training & Certification</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </nav>
+    <main class="status">
+        <section class="widgets">
+            <div class="widget" onclick="toggleDetails(this)">
+                <i class="fas fa-server widget-icon"></i>
+                <h2>Server Status</h2>
+                <p>Real-time status of our servers and services.</p>
+                <div class="details">
+                    <span class="status online">Online</span>
+                    <p>All systems are operational. No issues reported.</p>
+                </div>
+            </div>
+            <div class="widget" onclick="toggleDetails(this)">
+                <i class="fas fa-exclamation-triangle widget-icon"></i>
+                <h2>Incident Reports</h2>
+                <p>Logs of past incidents and their resolutions.</p>
+                <div class="details">
+                    <p>Incident Report - April 2024:</p>
+                    <ul>
+                        <li>Issue: Server outage due to DDoS attack</li>
+                        <li>Resolution: Implemented additional DDoS mitigation measures</li>
+                        <li>Status: Resolved</li>
+                    </ul>
+                    <p>Incident Report - March 2024:</p>
+                    <ul>
+                        <li>Issue: Security vulnerability in web application</li>
+                        <li>Resolution: Applied patch and updated security protocols</li>
+                        <li>Status: Resolved</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="widget" onclick="toggleDetails(this)">
+                <i class="fas fa-chart-line widget-icon"></i>
+                <h2>Uptime Statistics</h2>
+                <p>Historical data on service uptime and performance.</p>
+                <div class="details">
+                    <p>Uptime Statistics - 2024:</p>
+                    <ul>
+                        <li>January: 99.9%</li>
+                        <li>February: 99.8%</li>
+                        <li>March: 99.7%</li>
+                        <li>April: 99.9%</li>
+                    </ul>
+                    <p>Overall uptime: 99.83%</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 DarkCyberGroot</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
+

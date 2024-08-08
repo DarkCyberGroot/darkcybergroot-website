@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training & Certification - DarkCyberGroot's Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Training & Certification</h1>
+        <button id="toggle-dark-mode">Toggle Dark Mode</button>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="tools.html">Tools</a></li>
+            <li><a href="community.html">Community</a></li>
+            <li><a href="status.html">Status</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="training.html" class="active">Training & Certification</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </nav>
+    <main class="training">
+        <section class="widgets">
+            <div class="widget" onclick="toggleDetails(this)">
+                <i class="fas fa-chalkboard-teacher widget-icon"></i>
+                <h2>Courses</h2>
+                <p>Information about available courses and training programs.</p>
+                <div class="details">
+                    <ul>
+                        <li>VMware: Virtualization and cloud computing course.</li>
+                        <li>OSCP: Offensive Security Certified Professional course.</li>
+                        <li>Web Design: Fundamentals of web development and design.</li>
+                        <li>C++: Programming with C++ language.</li>
+                        <li>Visual Basics: Developing applications using Visual Basic.</li>
+                        <li>Splunk: Operational intelligence and data analytics with Splunk.</li>
+                        <li>SQL Language: Managing databases and querying with SQL.</li>
+                        <li>Ethical Hacking: Techniques and tools for ethical hacking and penetration testing.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="widget" onclick="toggleDetails(this)">
+                <i class="fas fa-certificate widget-icon"></i>
+                <h2>Certifications</h2>
+                <p>List of certifications held by DarkCyberGroot, with details on how to obtain similar certifications.</p>
+                <div class="details">
+                    <ul>
+                        <li>eJPT (eLearnSecurity Junior Penetration Tester): Entry-level certification for penetration testers.</li>
+                        <li>CompTIA Security+: Global certification validating baseline skills in IT security.</li>
+                        <li>GPEN (GIAC Penetration Tester): Certification for assessing target networks and systems to find security vulnerabilities.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="widget" onclick="toggleDetails(this)">
+                <i class="fas fa-book widget-icon"></i>
+                <h2>Study Resources</h2>
+                <p>Recommended study materials, books, and practice labs.</p>
+                <div class="details">
+                    <ul>
+                        <li>Books: "The Web Application Hacker's Handbook", "Hacking: The Art of Exploitation", "Metasploit: The Penetration Tester's Guide".</li>
+                        <li>Online Resources: Cybrary, Hack The Box, TryHackMe.</li>
+                        <li>Practice Labs: Offensive Security Proving Grounds, Virtual Hacking Labs.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 DarkCyberGroot</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
