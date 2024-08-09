@@ -8,7 +8,7 @@
 - 🎨 **Beautiful Design**: Crafted with responsive design principles to look great on any device.
 - 🧩 **Modular Code**: Easily customize and extend the project with your own features.
 - 🚀 **Fast and Lightweight**: Optimized for performance, ensuring quick load times.
-- 
+
 <img width="640" alt="my-website" src="https://github.com/user-attachments/assets/018a63ca-5a44-4124-9cc7-dadfa3e97bd1">
 
 ## Installation
